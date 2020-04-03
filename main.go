@@ -27,7 +27,7 @@ import "os"
 import "time"
 import "github.com/golang/groupcache/lru"
 import "strings"
-import "github.com/kz26/m3u8"
+import "github.com/grafov/m3u8"
 
 const VERSION = "1.0.5"
 
