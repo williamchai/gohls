@@ -11,10 +11,12 @@ gohls - HTTP Live Streaming (HLS) downloader written in Golang
 
 Download the source distribution for a tagged stable release, or download binaries for your platform.
 
-To compile yourself you will need to get dependency first:
-`go get github.com/golang/groupcache/lru`
-`go get github.com/kz26/m3u8`
-Then compile: `go build main.go`
+To compile yourself you will need to get dependency first:  
+`go get github.com/golang/groupcache/lru`  
+`go get github.com/grafov/m3u8`  
+
+Then compile:  
+`go build main.go`
 
 Currently, binaries are available for the following platforms:
 
