@@ -10,10 +10,17 @@ gohls - HTTP Live Streaming (HLS) downloader written in Golang
 ## [Download (source and binaries)](https://github.com/kz26/gohls/releases)
 
 Download the source distribution for a tagged stable release, or download binaries for your platform.
+
+To compile yourself you will need to get dependency first:
+`go get github.com/golang/groupcache/lru`
+`go get github.com/kz26/m3u8`
+Then compile: `go build main.go`
+
 Currently, binaries are available for the following platforms:
 
 * Windows 64-bit
-* Mac OS X 64-bit (contributed by @nlittlejohns, compiled and tested on OS X 10.9)
+* Mac OS X 64-bit compiled on 10.13
+* Linux Ubuntu 18.04
 
 ## Usage, options, and defaults
 
